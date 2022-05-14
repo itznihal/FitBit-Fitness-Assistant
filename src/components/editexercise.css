@@ -1,0 +1,19 @@
+.editexercisecls{
+    margin-top: 15em;
+    margin-bottom: 10em;
+}
+
+
+
+.card {
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 1rem;
+    position: relative;
+    padding: 4em;
+  }
+
+  .card-5 {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }

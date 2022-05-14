@@ -8,11 +8,16 @@ import EditExercise from "./components/edit-exercise.component";
 import CreateExercise from "./components/create-exercise.component";
 import CreateUser from "./components/create-user.component";
 
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 function App() {
   return (<>
     <Router>
       <Navbar />
-      <div className="container">
+      <div className="container1">
       <br/>
       <Route path="/" exact component={ExercisesList} />
       <Route path="/edit/:id" component={EditExercise} />

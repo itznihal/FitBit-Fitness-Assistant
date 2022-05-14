@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
-
+import "./editexercise.css";
 export default class EditExercise extends Component {
   constructor(props) {
     super(props);
@@ -94,6 +94,14 @@ export default class EditExercise extends Component {
 
   render() {
     return (
+
+      <>
+
+
+<div className="container-fluid editexercisecls">
+        <div className='row'>
+          <div className='col-10 mx-auto card card-5'>
+
     <div>
       <h3>Edit Exercise Log</h3>
       <form onSubmit={this.onSubmit}>
@@ -147,6 +155,10 @@ export default class EditExercise extends Component {
         </div>
       </form>
     </div>
-    )
+    
+    
+    </div></div></div>
+    
+    </> )
   }
 }
